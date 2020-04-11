@@ -1,0 +1,107 @@
+.navbar-default {
+    background: rgb(32, 34, 37);
+}
+
+#bg {
+    margin: auto;
+    background: url(https://cdn.discordapp.com/attachments/679010549383692329/693437871008514078/bg.gif) no-repeat 50%/cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 52vw;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+body {
+    background-color: rgb(3, 3, 3) !important;
+}
+
+h1 {
+    color: rgb(200, 200, 200);
+}
+
+p {
+    color: rgb(180, 180, 180);
+}
+
+.markdown-body img {
+    background: none;
+    width: 64px;
+    transition: opacity 0.25s;
+}
+
+.markdown-body img:hover {
+    opacity: 0.5;
+}
+
+.markdown-body img:active {
+    opacity: 0.2;
+}
+
+.markdown-body hr {
+    background: rgb(63, 67, 73)
+}
+
+.markdown-body h1 {
+    border-bottom: 1px solid rgb(63, 67, 73);
+}
+
+.ui-toc-dropdown .nav>.active:focus>a,
+.ui-toc-dropdown .nav>.active:hover>a,
+.ui-toc-dropdown .nav>.active>a {
+    color: rgb(180, 180, 180);
+    border-left: 2px solid rgb(180, 180, 180);
+}
+
+.ui-toc-dropdown .nav>li>a:focus,
+.ui-toc-dropdown .nav>li>a:hover {
+    color: rgb(180, 180, 180);
+    border-left: 1px solid rgb(180, 180, 180);
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+    display: none;
+}
+
+.ui-comment-button {
+    display: none !important;
+}
+
+footer {
+    display: none;
+}
+
+.darkModeButton {
+    position: absolute;
+    width: 32px;
+}
+
+.btn-default {
+    background: rgb(50, 50, 50);
+}
+
+.ui-notification .ui-watch {
+    color: rgb(200, 200, 200) !important;
+}
+
+.ui-infobar .btn.ui-edit,
+.ui-infobar .btn.ui-signin.btn.btn-default {
+    color: rgb(200, 200, 200);
+}
+
+.ui-notification .ui-notification-subscribe {
+    color: rgb(200, 200, 200);
+}
+
+.btn-default:hover {
+    background: rgb(80, 80, 80);
+}
