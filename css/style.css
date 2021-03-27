@@ -31,15 +31,17 @@ p {
 .markdown-body img {
     background: none;
     width: 64px;
-    transition: opacity 0.25s;
+    transition: all ease-in 0.1s;
+    scale: 1;
+    -webkit-user-drag: none;
 }
 
 .markdown-body img:hover {
-    opacity: 0.5;
+    transform: scale(1.05);
 }
 
 .markdown-body img:active {
-    opacity: 0.2;
+    transform: scale(0.9);
 }
 
 .markdown-body hr {
